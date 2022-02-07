@@ -11,5 +11,5 @@ db
     })
 
 async function main() {
-    return await mongoose.connect('mongodb://localhost:27017/contacts');
+    return await mongoose.connect('mongodb+srv://contactListUser:mongo123@contact.veocq.mongodb.net/contacts?retryWrites=true&w=majority');
 }
